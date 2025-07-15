@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int Traverse(int array[], int size);
-int Insertion(int array[], int *size);
+void Insertion(int array[], int *size);
+void Deletion(int array[], int *size);
 
 int main()
 {
@@ -30,6 +31,12 @@ int main()
     Insertion(arr, &size);
     Traverse(arr, size);
 
+    // Deletion:
+
+    printf("Delete Element\n");
+    Deletion(arr, &size);
+    Traverse(arr, size);
+
     return 0;
 }
 
@@ -52,7 +59,7 @@ int Traverse(int array[], int size)
 
 // 2. Insertion:
 
-int Insertion(int array[], int *size)
+void Insertion(int array[], int *size)
 {
     int Pos, Val;
 
@@ -77,6 +84,30 @@ int Insertion(int array[], int *size)
 
         *size += 1;
     }
+}
 
-    return 0;
+// 3. Deletion:
+
+void Deletion(int array[], int *size)
+{
+
+    int Val;
+
+    printf("\nEnter Element to delete : ");
+    scanf("%d", &Val);
+
+    for (int i = 0; i < (*size); i++)
+    {
+        if (array[i] == Val)
+        {
+
+            for (int j = i; j < (*size); j++)
+            {
+                array[j] = array[j + 1];
+            }
+
+            (*size) -= 1;
+            i -= 1;
+        }
+    }
 }
