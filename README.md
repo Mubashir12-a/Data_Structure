@@ -12,7 +12,7 @@ DS WIth C
 ***09. Insertion Sort Of Array***<br>
 ***10. Merge Sort Of Array***<br>
 ***11. Quick Sort Of Array***<br>
-***12. Dynamic Memory Allocation ***<br>
+***12. Dynamic Memory Allocation***<br>
         &emsp;-> malloc()<br> 
         &emsp;-> Calloc()<br> 
         &emsp;-> realloc()<br> 
