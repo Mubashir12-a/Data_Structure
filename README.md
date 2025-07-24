@@ -1,47 +1,47 @@
 # Data_Structure
 DS WIth C
 
-***01. Array***
-***02. Insertion In Array***
-***03. Deletion In Array***
-***04. Traverse Of Array***
-***05. Binary Search On Array***
-***06. Linear Search On Array***
-***07. Selection Sort Of Array***
-***08. Bubble Sort Of Array***
-***09. Insertion Sort Of Array***
-***10. Merge Sort Of Array***
-***11. Quick Sort Of Array***
-***12. Dynamic Memory Allocation ***
-        -> malloc() 
-        -> Calloc() 
-        -> realloc() 
-        -> free()
-***13. Linked List***
-        -> Singly Linked List
-        -> Doubly Linked List
-        -> Circular Linked List
-        -> Doubly Circular Linked List
-***14. Operations On Linked List***
-        -> Traversal
-        -> Insertion
-        -> Deletion
-***15. Stack*** 
-        -> Using Array
-            -> Push
-            -> Pop
-            -> Peek
-            -> IsEmpty
-            -> Clear
-        -> Using Linked List (Tail as Top)
-            -> Push_Node
-            -> Pop_Node
-            -> Peek
-            -> IsEmpty
-            -> Clear
-        -> Using Linked List (Head as Top)
-            -> Push_Node
-            -> Pop_Node
-            -> Peek
-            -> IsEmpty
-            -> Clear
+***01. Array***<br>
+***02. Insertion In Array***<br>
+***03. Deletion In Array***<br>
+***04. Traverse Of Array***<br>
+***05. Binary Search On Array***<br>
+***06. Linear Search On Array***<br>
+***07. Selection Sort Of Array***<br>
+***08. Bubble Sort Of Array***<br>
+***09. Insertion Sort Of Array***<br>
+***10. Merge Sort Of Array***<br>
+***11. Quick Sort Of Array***<br>
+***12. Dynamic Memory Allocation ***<br>
+        &emsp;-> malloc() 
+        &emsp;-> Calloc() 
+        &emsp;-> realloc() 
+        &emsp;-> free()
+***13. Linked List***<br>
+        &emsp;-> Singly Linked List
+        &emsp;-> Doubly Linked List
+        &emsp;-> Circular Linked List
+        &emsp;-> Doubly Circular Linked List
+***14. Operations On Linked List***<br>
+        &emsp;-> Traversal
+        &emsp;-> Insertion
+        &emsp;-> Deletion
+***15. Stack*** <br>
+        &emsp;-> Using Array
+            &emsp;&emsp;-> Push
+            &emsp;&emsp;-> Pop
+            &emsp;&emsp;-> Peek
+            &emsp;&emsp;-> IsEmpty
+            &emsp;&emsp;-> Clear
+        &emsp;-> Using Linked List (Tail as Top)
+            &emsp;&emsp;-> Push_Node
+            &emsp;&emsp;-> Pop_Node
+            &emsp;&emsp;-> Peek
+            &emsp;&emsp;-> IsEmpty
+            &emsp;&emsp;-> Clear
+        &emsp;-> Using Linked List (Head as Top)
+            &emsp;&emsp;-> Push_Node
+            &emsp;&emsp;-> Pop_Node
+            &emsp;&emsp;-> Peek
+            &emsp;&emsp;-> IsEmpty
+            &emsp;&emsp;-> Clear
